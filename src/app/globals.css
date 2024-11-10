@@ -1,0 +1,24 @@
+/* File: globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+      font-family: "Inter", sans-serif;
+      color: #111827; /* Primary Text Color */
+      background-color: #f3f4f6; /* Light Background */
+      line-height: 1.6;
+    }
+  }
+  
+  @layer components {
+    .menuLink {
+      @apply cursor-pointer hover:text-accent transition;
+    }
+  }
+   
+  html {
+    scroll-behavior: smooth;
+  }
+  
